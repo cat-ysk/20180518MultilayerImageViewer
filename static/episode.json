@@ -1,0 +1,30 @@
+{
+  "id": 1,
+  "name": "Episode Name",
+  "pages": [
+    [
+      { "url": "/products/20180518_multilayer_manga_viewer/episode/m.png" },
+      { "url": "/products/20180518_multilayer_manga_viewer/episode/j.png" }
+    ],
+    [
+      { "url": "/products/20180518_multilayer_manga_viewer/episode/m.png" },
+      { "url": "/products/20180518_multilayer_manga_viewer/episode/j.png" }
+    ],
+    [
+      { "url": "/products/20180518_multilayer_manga_viewer/episode/m.png" },
+      { "url": "/products/20180518_multilayer_manga_viewer/episode/j.png" }
+    ],
+    [
+      { "url": "/products/20180518_multilayer_manga_viewer/episode/m.png" },
+      { "url": "/products/20180518_multilayer_manga_viewer/episode/j.png" }
+    ],
+    [
+      { "url": "/products/20180518_multilayer_manga_viewer/episode/m.png" },
+      { "url": "/products/20180518_multilayer_manga_viewer/episode/j.png" }
+    ],
+    [
+      { "url": "/products/20180518_multilayer_manga_viewer/episode/m.png" },
+      { "url": "/products/20180518_multilayer_manga_viewer/episode/j.png" }
+    ]
+  ]
+}

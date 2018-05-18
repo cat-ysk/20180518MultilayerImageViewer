@@ -20,32 +20,36 @@
 
 <script>
 import AppLogo from "~/components/AppLogo.vue";
+import Page from "~/components/Page.vue";
 
 export default {
   data() {
     return {
-      lang: 'j',
+      lang: "j",
       display: true
-    }
+    };
   },
-
-  components: {
-    AppLogo
+  created() {
+    const episodeId = this.$route.query.episode;
+    this.$store.dispatch("episodes/fetchEpisode", episodeId);
   },
   computed: {
     overlayImage() {
-      return '/products/20180518_multilayer_manga_viewer/' + this.lang + '.png'
+      return "/products/20180518_multilayer_manga_viewer/" + this.lang + ".png";
     }
   },
   methods: {
     change(lang) {
-      this.lang = lang
+      this.lang = lang;
     },
-    onoff(){
-      this.display = !this.display
+    onoff() {
+      this.display = !this.display;
     }
+  },
+  components: {
+    AppLogo,
+    Page
   }
-
 };
 </script>
 
