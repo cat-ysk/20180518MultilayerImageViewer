@@ -3,12 +3,13 @@ import axios from "axios";
 const URL = "/products/20180518_multilayer_manga_viewer/episode.json";
 
 export const state = () => ({
-  episode: null
+  id: null,
+  name: null,
+  pages: []
 });
 
 export const actions = {
   fetchEpisode(context, episodeId) {
-    console.log(episodeId);
     axios
       .get(URL)
       .then(res => {
@@ -21,7 +22,9 @@ export const actions = {
 };
 
 export const mutations = {
-  episode(state, obj) {
-    state.episode = obj;
+  episode(state, data) {
+    state.id = data.id;
+    state.name = data.name;
+    state.pages = data.pages;
   }
 };
