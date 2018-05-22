@@ -38,10 +38,10 @@ export default {
       return this.$store.state.episodes.pages;
     },
     leftImages() {
-      return this.pages[this.currentIndex];
+      return this.pages[this.currentIndex + 1];
     },
     rightImages() {
-      return this.pages[this.currentIndex + 1];
+      return this.pages[this.currentIndex];
     }
   },
   methods: {

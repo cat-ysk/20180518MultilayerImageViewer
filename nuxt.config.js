@@ -7,7 +7,7 @@ module.exports = {
   ** Headers of the page
   */
   head: {
-    title: "試作多レイヤー漫画ビューアー",
+    title: "多段レイヤー漫画ビューアー（仮）",
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
