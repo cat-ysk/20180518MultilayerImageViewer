@@ -15,17 +15,17 @@
   "dependencies": {
     "bulma": "^0.7.1",
     "node-sass": "^4.9.0",
-    "nuxt": "^1.0.0",
+    "nuxt": "^1.4.0",
     "sass-loader": "^7.0.1"
   },
   "devDependencies": {
     "axios": "^0.18.0",
-    "babel-eslint": "^8.2.1",
+    "babel-eslint": "^8.2.3",
     "bootstrap": "^4.1.1",
-    "eslint": "^4.15.0",
+    "eslint": "^4.19.1",
     "eslint-friendly-formatter": "^4.0.1",
     "eslint-loader": "^2.0.0",
-    "eslint-plugin-vue": "^4.0.0",
+    "eslint-plugin-vue": "^4.5.0",
     "lodash": "^4.17.10"
   }
 }
